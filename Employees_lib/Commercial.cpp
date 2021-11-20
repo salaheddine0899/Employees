@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "Commercial.h"
 namespace entreprise {
-	Commercial::Commercial(string nom, double indice_sal, double ventes, double commis) :EmployeeRespo(nom, indice_sal)
+	Commercial::Commercial(string nom, double indice_sal, double ventes, double commis) :Employee(nom, indice_sal)
 	{
 		this->ventes = ventes;
 		this->commission = commis;

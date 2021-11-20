@@ -14,6 +14,9 @@ namespace entreprise {
 	{
 		cout << "numero employee:" << this->matricule << " nom:" << this->nom << " salaire:" << this->calculer_salaire() << "$." << endl;
 	}
+	void Employee::ajouter_inf(Employee&)
+	{
+	}
 	Employee::~Employee()
 	{
 

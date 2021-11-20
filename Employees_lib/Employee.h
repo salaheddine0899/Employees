@@ -16,7 +16,8 @@ namespace entreprise {
 		virtual double calculer_salaire()const;
 	public:
 		Employee(string nom,double indice_sal);
-		void afficher()const;
+		virtual void afficher()const;
+		virtual void ajouter_inf(Employee&);
 		~Employee();
 		
 	};

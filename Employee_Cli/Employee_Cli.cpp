@@ -2,17 +2,18 @@
 //
 
 #include "Commercial.h"
+#include "EmployeeRespo.h"
 using namespace entreprise;
 int main()
 {
     /*vector<EmployeeRespo*>* l = new vector<EmployeeRespo*>();
     vector<EmployeeRespo*>* l1 = new vector<EmployeeRespo*>();*/
     Personel p;
-    Commercial emp("Salah Eddine", 1000,500,30);
-    Commercial emp2("Aomar", 3000,0,30);
+    EmployeeRespo emp("Salah Eddine", 1000);
+    Commercial emp2("Aomar", 3000, 500, 30);
     p.afficher();
     emp.ajouter_inf(emp2);
-    emp.afficher_inf();
+    emp.afficher();
     std::cout << "Hello World!\n";
 }
 

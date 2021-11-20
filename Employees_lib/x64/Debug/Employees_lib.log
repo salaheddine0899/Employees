@@ -1,7 +1,6 @@
 ﻿  Commercial.cpp
   Employee.cpp
   EmployeeRespo.cpp
-C:\Users\a\Documents\poo\Employees_lib\Employees_lib\EmployeeRespo.cpp(15,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Personel.cpp
+C:\Users\a\Documents\poo\Employees_lib\Employees_lib\EmployeeRespo.cpp(17,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
   Employees_lib.vcxproj -> C:\Users\a\Documents\poo\Employees_lib\x64\Debug\Employees_lib.lib

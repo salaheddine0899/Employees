@@ -1,8 +1,8 @@
 #pragma once
-#include "EmployeeRespo.h"
+#include "Employee.h"
 namespace entreprise {
     class Commercial :
-        public EmployeeRespo
+        public Employee
     {
     private:
         double ventes;
